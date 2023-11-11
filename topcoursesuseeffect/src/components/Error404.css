@@ -1,0 +1,17 @@
+.error-404-container{
+    display: flex;
+    height: 40vh;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.error-404-container p{
+    /* background-color:rgba(0, 0, 0, 0.304); */
+    color: #44474d;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 8px;
+}

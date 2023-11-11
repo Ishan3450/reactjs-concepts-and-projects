@@ -1,0 +1,13 @@
+.loader-container{
+    height: 40vh;
+    display: flex;   
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text-loading{
+    font-size: 2rem;
+    font-weight: 600;    
+    color: white;
+}

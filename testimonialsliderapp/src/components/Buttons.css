@@ -1,0 +1,25 @@
+.btns-sequences{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: rgba(109, 56, 225, 0.69);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.seq-btn, .btn-surprise-me{
+    cursor: pointer;
+}
+
+.btn-surprise-me{
+    margin-top: 20px;
+    background-color: rgba(109, 56, 225, 0.69);
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 0.9rem;
+}
+

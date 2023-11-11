@@ -1,0 +1,39 @@
+.main-container{
+  background-color: #344151;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading{
+  color: #0398d4;
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-reset{
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: #0398d4;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  width: fit-content;
+  transition-duration: 0.4s;
+}
+
+.btn-reset:hover{
+  background-color: #0382b4;
+}

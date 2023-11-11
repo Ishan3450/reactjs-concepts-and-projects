@@ -1,0 +1,41 @@
+*{
+  user-select: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #e0e2e6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 40%;
+}
+
+.seperator{
+  background-color: rgba(109, 56, 225, 0.69);
+  height: 3px;
+  width: 150px;
+  margin: auto;
+}
+
+.testimonial-card{
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 3px gray;
+}

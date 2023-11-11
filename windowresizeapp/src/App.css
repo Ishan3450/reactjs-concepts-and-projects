@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.height, .width{
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+#height, #width{
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+

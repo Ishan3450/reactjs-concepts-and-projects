@@ -1,0 +1,55 @@
+.template-container {
+  display: flex;
+  min-height: calc(100vh - 3.5rem);
+  justify-content: center;
+}
+
+.form-with-info {
+  width: 45%;
+  text-align: left;
+  padding: 10px;
+  align-self: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.description1 {
+  margin-top: 15px;
+}
+
+.description2 {
+  color: rgb(39, 62, 193);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.image-part {
+  position: relative;
+  width: 50%;
+}
+
+.fore-image,
+.bg-frame {
+  position: absolute;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.fore-image {
+  z-index: 2;
+  left: 8rem;
+  top: 7rem;
+}
+
+.bg-frame {
+  z-index: 1;
+  left: 9rem;
+  top: 6rem;
+}
