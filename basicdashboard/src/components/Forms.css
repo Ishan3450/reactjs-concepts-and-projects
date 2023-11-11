@@ -1,0 +1,114 @@
+.label-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.label-block > p {
+  font-size: 0.9rem;
+}
+
+.label-block > p > sup {
+  color: red;
+}
+
+.label-block > input {
+  padding: 15px 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.093);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.371);
+  font-size: 0.9rem;
+}
+
+.password-field-block > .label-block {
+  width: 90%;
+}
+
+.password-field-block {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.eye-icon {
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+.forgot-pwd {
+  text-align: right;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: rgb(39, 62, 193);
+  cursor: pointer;
+}
+
+
+.role {
+  padding: 15px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.093);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.371);
+  font-size: 0.9rem;
+  color: white;
+}
+
+option{
+    color: black;
+}
+
+.action-btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: none;
+  background-color: #fdd70a;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.full-name-fields-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seperator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.text {
+  color: rgb(64, 64, 64);
+  font-size: 0.8rem;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: rgb(64, 64, 64);
+}
+
+.proceed-with-google {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.093);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.proceed-with-google:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}

@@ -12,4 +12,4 @@
 |8.|[Form App](./formapp/)| Demonstration of how to handle forms in ReactJS with controlled components and how to get data from the form.|
 |9.|[React Router App](./reactrouterapp/)| Demonstration of how to setup react router in a react app and different types of routing.|
 |10.|[Use Navigate Hook](./usenavigateapp/)| Demonstration of useNavigate hook.|
-|11.|[Study Notion App](./studynotionapp/)| Combination of all the above 1 to 10 projects and made a basic dashboard with all the functionalities but without DB and backend.|
+|11.|[Basic Dashboard](./basicdashboard/)| Combination of all the above 1 to 10 projects and made a basic dashboard with all the functionalities but without DB and backend.|
