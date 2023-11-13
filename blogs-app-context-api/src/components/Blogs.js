@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { AppContext } from "../context/AppContext";
 import Spinner from "./Spinner";
 import Blog from "./Blog";
@@ -16,7 +16,7 @@ function Blogs() {
       ) : (
         <div className="blogs">
           {posts.map((blogData) => (
-            <Blog data={blogData} />
+            <Blog key={blogData.id} data={blogData} />
           ))}
         </div>
       )}

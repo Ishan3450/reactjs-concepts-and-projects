@@ -1,0 +1,30 @@
+button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 4px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.page-header > p{
+    font-size: 1.3rem;
+}
+
+.page-header > p > span{
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.related-blogs > p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}

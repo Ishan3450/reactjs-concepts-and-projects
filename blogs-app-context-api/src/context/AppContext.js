@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
+import { baseUrl } from "../BaseURL";
 
 export const AppContext = createContext();
 
@@ -9,12 +10,21 @@ export default function AppContextProvider({ children }) {
   const [totalPages, setTotalPages] = useState(1);
   const [posts, setPosts] = useState([]);
 
-  async function fetchBlogs(page) {
+  async function fetchBlogs(page, tag=false, category=false) {
     try {
       setLoading(true);
-      const fetchedData = await axios.get(
-        `https://codehelp-apis.vercel.app/api/get-blogs?page=${currPage}`
-      );
+
+      let url = `${baseUrl}?page=${page}`;
+
+      // at a point of time either tag or category will be there
+      if(tag){
+        url += `&tag=${tag}`;
+      }
+      if(category){
+        url += `&category=${category}`;
+      }
+
+      const fetchedData = await axios.get(url);
 
       setPosts(fetchedData.data.posts);
       setCurrPage(page);

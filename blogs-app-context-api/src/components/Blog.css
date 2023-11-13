@@ -8,13 +8,19 @@
 }
 
 .blog-card:hover{
-    cursor: pointer;
     background-color: #efecec;
 }
 
 .title{
     font-size: 1.5rem;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.title:hover, .category:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .basic-info{
@@ -38,7 +44,10 @@
 
 .category{
     font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
 }
+
 
 .blog-content{
     margin-top: 20px;
@@ -53,8 +62,9 @@
     color: #007bff;
     gap: 7px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
-.blog-tag-name{
+/* .blog-tag-name{
     text-decoration: underline;
-}
+} */

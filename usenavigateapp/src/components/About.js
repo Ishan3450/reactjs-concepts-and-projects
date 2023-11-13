@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function About() {
@@ -7,6 +6,7 @@ function About() {
   function routeToHome() {
     navigate("/");
   }
+
   function back() {
     navigate(-1);
   }
