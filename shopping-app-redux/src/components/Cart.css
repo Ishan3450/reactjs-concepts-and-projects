@@ -1,0 +1,33 @@
+.cart-summary{
+    margin-top: 10px;
+    border: 1px solid #212121;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 60%;
+}
+
+.summary-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-items, .total-amount{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-checkout{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #cac8c8;
+    cursor: pointer;
+}
+
+.incart-products-heading{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 600;
+}

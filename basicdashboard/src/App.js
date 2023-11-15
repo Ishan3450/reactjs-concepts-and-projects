@@ -13,7 +13,9 @@ import Error404 from "./components/Error404";
 
 function App() {
   const [isLoggedIn, setLoginStatus] = useState(false);
-  const [userData, setUserData] = useState({"admin@gmail.com": {fname: "admin", lname: "admin", password: "admin"}});
+  const [userData, setUserData] = useState({
+    "admin@gmail.com": { fname: "admin", lname: "admin", password: "admin" },
+  });
   const [activeUser, setActiveUser] = useState({});
 
   return (
