@@ -10,17 +10,17 @@ export default function AppContextProvider({ children }) {
   const [totalPages, setTotalPages] = useState(1);
   const [posts, setPosts] = useState([]);
 
-  async function fetchBlogs(page, tag=false, category=false) {
+  async function fetchBlogs(page, tag = false, category = false) {
     try {
       setLoading(true);
 
       let url = `${baseUrl}?page=${page}`;
 
       // at a point of time either tag or category will be there
-      if(tag){
+      if (tag) {
         url += `&tag=${tag}`;
       }
-      if(category){
+      if (category) {
         url += `&category=${category}`;
       }
 
@@ -52,7 +52,7 @@ export default function AppContextProvider({ children }) {
     setTotalPages,
     posts,
     setPosts,
-    fetchBlogs
+    fetchBlogs,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
